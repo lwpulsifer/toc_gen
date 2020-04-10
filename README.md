@@ -13,7 +13,7 @@ The Python script then populates the table of contents in correct Real Python fo
 
 ## Usage
 
-First, use the Google Slides API quick start to get some credentials for this project [here](https://developers.google.com/slides/quickstart/python). Then copy the Google Slides presentation at [this link](https://docs.google.com/presentation/d/1kDXfk_NV_dPJXezYFngJqCOs63T2RqR_8xtwpNF5Xag/edit?usp=sharing) into your own drive. Then copy the id from the presentation copy into the `base_id` field of a yaml config file like `toc_example.yaml`, then run `toc.py` with that yaml file as the argument. The yaml should follow the format of the example exactly.
+First, use the Google Slides API quick start to get some credentials for this project [here](https://developers.google.com/slides/quickstart/python). Put that credentials file into the credentials folder under the name `credentials.json`. Then copy the Google Slides presentation at [this link](https://docs.google.com/presentation/d/1kDXfk_NV_dPJXezYFngJqCOs63T2RqR_8xtwpNF5Xag/edit?usp=sharing) into your own drive. Then copy the id from the presentation copy into the `base_id` field of a yaml config file like `toc_example.yaml`, then run `toc.py` with that yaml file as the argument. The yaml should follow the format of the example exactly.
 
 ```bash
 python toc.py CONFIG_FILE.yaml
