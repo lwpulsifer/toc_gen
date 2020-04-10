@@ -18,4 +18,5 @@ First, copy the Google Slides presentation at [this link](https://docs.google.co
 ```bash
 python toc.py CONFIG_FILE.yaml
 ```
+When you run this, you'll prompted to log into your Google account and allow permissions, which it will need to work. You may also need to work with Google Developer tools to make sure this all works out, I'm not sure. I'm still learning all of this stuff.
 
